@@ -31,9 +31,8 @@ let randomFourthIndex = Math.floor(Math.random() * fourth.length);
 let randomFourth = fourth[randomFourthIndex];
 console.log(randomFourth);
 
-function dailyMessage(first, second, third, fourth) {
-  let horoscope =
-    randomFirst + " " + randomSecond + " " + randomThird + " " + randomFourth;
+function dailyMessage() {
+  let horoscope = `${randomFirst} ${randomSecond} ${randomThird} ${randomFourth} `;
   return horoscope;
 }
 
